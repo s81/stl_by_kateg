@@ -22,6 +22,6 @@ int main()
     // NEW LINE
     std::cout << "\n\n";
     // Sum!! <numeric>
-    auto sum = std::accumulate(std::begin(numbers), std::end(numbers), 0.0);
+    auto sum = std::accumulate(std::begin(numbers), std::end(numbers), 0);
     std::cout << sum << '\n';
 }
